@@ -1,0 +1,76 @@
+body{line-height:auto;background-color:#fff;}
+#app{background-color:#fff;}
+.demo-grid div[class*="col-"] {padding:10px 0 5px 0;}
+.resume-left{background-color:#1d3653;padding:30px 0;}
+/* 选择文件按钮 */
+.file-button{position: absolute;width: 100%;height: 100%;left: 0;right: 0;top: 0;bottom: 0;opacity: 0;}
+
+.headerImg{width:200px;height:200px;margin: 0 auto;overflow: hidden;position:relative;border:2px solid #fff;box-shadow: 0 0 3px #fff;font-size: 0;border-radius:8px;}
+.headerImg img{width: 100%;}
+
+.resume-left input.mu-text-field-input{color:#ddd;}
+.resume-left .baseInfo{width:70%;margin:30px auto;}
+.resume-left .baseInfo i{color:#ddd;}
+.resume-left .baseInfo .mu-text-field{margin-bottom:0;}
+.resume-left .baseInfo .mu-text-field-icon{top:8px;}
+
+.resume-left .skills{width:70%;margin:30px auto;padding:10px;position:relative;}
+.resume-left .skills .title{font-size:16px;color:#ddd;border-bottom:1px solid #ddd;padding:2px 0;}
+.resume-left .skills i{position:absolute;right:5px;}
+.resume-left .skill-item p{font-size:14px;color:#ddd;margin:10px 0 5px 0;}
+
+/* 兴趣爱好区域 */
+.resume-left .interest{width:70%;margin:30px auto;padding:10px;position:relative;}
+.resume-left .interest .title{font-size:16px;color:#ddd;border-bottom:1px solid #ddd;padding:2px 0;}
+.resume-left .interest i{position:absolute;right:5px;}
+.resume-left .interest-item p{font-size:14px;color:#ddd;margin:10px 0 5px 0;}
+
+/* 兴趣爱好/技能 增加按钮 */
+.addBtn{position:absolute;right:0;top:10px;display:none;} 
+.skills:hover .addBtn,.interest:hover .addBtn{display:block;}
+.mu-linear-progress{background-color:#1d3653}
+.mu-linear-progress-determinate{background-color:#ddd;}
+/* 兴趣爱好/技能 删除按钮 */
+.list{position:relative;}
+.delete{position:absolute;right:0;top:0;display:none;}
+.delete i{font-size:20px;}
+.list:hover .delete{display:block;}
+
+
+/* 右边内容区域 */
+.resume-right{background-color:#fff;}
+.resume-right div.mu-text-field-content{padding:0;}
+.resume-right div.mu-text-field{margin:0;min-height:auto;}
+.nameInput input{font-size:24px;font-weight:bold;color:#1d3653;}
+.ambition input,.ambition .ambition-title{font-size:14px;color:#1d3653;}
+
+
+/* 教育背景/工作经验/荣誉奖项/自我评价 */
+.education,.work,.award,.assessment{margin-top:10px;padding:15px 0;position:relative;}
+.education .demo-float-button,.work .demo-float-button,.award .demo-float-button,.assessment .demo-float-button{position:absolute;right:10px;top:20px;width:30px;height:30px;display:none;}
+
+.education:hover .demo-float-button{display:block;}
+.work:hover .demo-float-button{display:block;}
+.award:hover .demo-float-button{display:block;} 
+.assessment:hover .demo-float-button{display:block;}
+
+.education .title,.work .title,.award .title,.assessment .title{padding:5px 0;font-size:20px;font-weight:bold;border-bottom:1px solid #eee;}
+.education .title i,.work .title i,.award .title i,.assessment .title i{position:relative;top:5px;}
+.education .title span,.work .title span,.award .title span,.assessment .title span{position:relative;left:10px;}
+.title-font{font-size:14px;color:#1d3653;}
+.content-font{font-size:16px;color:#1d3653;}
+
+.deleteBtn{display:block;width:25px;height:25px;background-color:#fb3942;border-radius:50%;text-align:center;line-height:25px;display:none;position:absolute;}
+.deleteBtn .material-icons{line-height:25px;font-size:18px;}
+.list:hover .deleteBtn{display:block;}
+.empty{font-size:14px;position:relative;top:10px;color:#999;}
+
+
+canvas{position:absolute;left:50px;top:50px;}
+.createPic{position:absolute;top:10px;right:10px;}
+.generatePic{color:#999;}
+
+/* 阴影 */
+.shadow{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);}
+.resume{width:50%;margin:0 auto;position:fixed;top:10px;}
+.mu-card-media img{width:100%;}
